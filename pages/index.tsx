@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 import { Layout } from '@/components/Layout'
+import { NextPage } from 'next'
 
-export default function Home() {
+const Home: NextPage = () => {
   return <Layout title="Home">{'hello'}</Layout>
 }
+
+export default Home
